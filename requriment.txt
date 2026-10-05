@@ -1,0 +1,3 @@
+base 64
+google-genai
+streamlit
