@@ -4,7 +4,18 @@ from google import genai
 from dotenv import load_dotenv
 from httpx import stream
 import time
+from PIL import Image
 load_dotenv()
+
+# Load your local stylish E image
+favicon = Image.open("emoimage.png")
+
+st.set_page_config(
+    page_title="Emo Here",
+    page_icon=favicon
+)
+
+
 
 
 
