@@ -2,7 +2,6 @@ import streamlit as st
 import base64
 from google import genai
 from dotenv import load_dotenv
-from httpx import stream
 import time
 load_dotenv()
 
