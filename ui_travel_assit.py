@@ -6,7 +6,8 @@ import time
 load_dotenv()
 
 
-
+###page title and logo##
+st.set_page_config(page_title="EMO HERE", page_icon="🗺️")
 # Load background image
 with open("background.png", "rb") as image:
     background = base64.b64encode(image.read()).decode()
