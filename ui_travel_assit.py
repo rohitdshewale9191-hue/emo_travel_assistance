@@ -253,7 +253,7 @@ if st.session_state.page == "Home":
     st.write("Your AI travel assistant.")
     
     client = genai.Client()
-    location = st.text_input("Where do you wana go chipmunk")
+    location = st.text_input("Enter Your Dream Travel")
     days_nr = st.number_input("How many days of trip", min_value=1, max_value=30)
     budget = st.selectbox("Select Budget", ["Luxury", "Moderate", "Budgeted"])
     travel_type = st.radio("Who are you travelling with", ["Family","Solo", "Friends"])
